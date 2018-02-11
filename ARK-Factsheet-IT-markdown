@@ -1,0 +1,108 @@
+> Derived from: Ark Ecosystem Factsheet (English 0.0.1a) by /u/jarunik 
+> Italian 0.0.1a (markdown for reddit.com)
+
+#Ark Ecosystem Factsheet 
+
+Indice
+
+* 1. Cos’è Ark?
+* 2. Punti di forza
+* 3. Proof of Stake Delegato (DPoS)
+* 4. Delegati
+    * 4.1 Votare per un delegato
+* 5. Exchange
+* 6. Wallet ed Explorer
+* 7. Ark Features & Vision
+    * 7.1 SmartBridge
+    * 7.2 Push Button Deployment
+    * 7.3 Ark Virtual Machine (ArkVM)
+    * 7.4 Ark Core versione 2 
+    * 7.5 Interfacce Programmabili (API)
+
+##1. Cos’è Ark?
+Ark non è semplicemente una criptovaluta, è un ecosistema. La piattaforma Ark è basata su una blockchain sicura ed offre delle funzioni semplici da utilizzare, allo scopo di favorire l’adozione delle tecnologie basate su blockchain.
+
+Quantità iniziale | 125.000.000 ARK
+---|---|----
+Tempo per blocco | 8 secondi
+Transazioni per blocco | 50
+Payload | Campo SmartBridge associato alla transazione (64 caratteri)
+Ricompensa per blocco | 2 ARK + commissioni
+Numero massimo di delegati forgianti | 51
+Implementazione del nodo | nodejs, postgres
+
+Sito Web: https://ark.io
+
+##2. Punti di forza
+
+* Veloce: il tempo per blocco di 8 secondi fa della rete di Ark una delle più veloci del settore. Il meccanismo di Proof of Stake Delegato permette di adattare la dimensione del blocco e gli altri parametri al fine di mantenere i requisiti di velocità anche in condizioni di elevato utilizzo.
+
+* Decentralizzato: i delegati hanno il compito di mandare avanti la rete e sono ricompensati con la ricompensa associata ad ogni blocco, come avviene per i minatori di Bitcoin. Ulteriori nodi di collegamento (nodi relay) rafforzano la rete, assicurando un accesso globale ed il relativo consenso.
+
+* Scalabile: l’obiettivo primario di Ark è mantenere il nucleo della blockchain leggero ed estremamente veloce. La funzionalità SmartBridge rende possibile il decentramento delle funzionalità non essenziali verso centinaia di blockchain parallele (side-chain).
+
+* Collaborativo: Ark è il risultato di un impegno globale, con molti membri del team centrale provenienti da tutto il mondo ed una comunità sempre crescente di volenterosi e dedicati sviluppatori, Ark è letteralmente il prodotto di uno sforzo collaborativo.
+
+* Bridging: Ark connette le più note blockchain già esistenti attraverso l’uso della tecnologia proprietaria SmartBridge, rendendo possibile un ecosistema di blockchain interconnesse.
+
+* Open Source: l’ecosistema Ark ed i progetti correlati sono totalmente open-source al fine di facilitarne gli sviluppi e con l'obiettivo di creare una blockchain compatibile con SmartBridge. Il tutto è reso disponibile su Github per semplicità e convenienza.
+
+* Entità commerciale: Ark ha registrato una entità commerciale in Francia chiamata *Ark Ecosystem* ed è al lavoro con il governo Francese per assicurarsi conformità alle le leggi.
+
+##3. Proof of Stake Delegato (DPoS)
+
+Il DPoS usa un sistema di voto in tempo reale per decidere a chi è consentita le creazione di nuovi blocchi. Il DPoS fa leva sul potere degli stakeholder che, attraverso il loro voto, mantengono un modo equo e democratico di risoluzione del problema del consenso. Tutti i parametri di rete, come ad esempio le fee e le dimensioni di ogni blocco possono essere impostati liberamente dai delegati eletti.
+
+
+##4. Delegati
+
+Tutti possono mantenere attivo un nodo sulla rete Ark. È possibile diventare un delegato, ed iniziare a forgiare, registrando il proprio account tramite una transazione ed inserendo la propria passphrase all’interno di un nodo di tipo relay. I 51 delegati con il più alto numero di voti possono forgiare nuovi blocchi Ark. I delegati, per includere le transazioni in un blocco, ricevono le commissioni e la ricompensa ad esso associata. I delegati possono utilizzare i fondi ricevuti a loro discrezione, ma molti di essi condividono la maggior parte di essi con i propri elettori. È possibile verificare le statistiche attuali sui delegati e la classifica su: https://arkcoin.net/delegates
+
+###4.1. Come votare
+1. Installare la versione più recente del Client Desktop Ark o del Mobile Wallet
+2. Creare un account
+3. Memorizzare la propria passphrase
+4. Conservare una copia della propria passphrase
+5. Confermare la propria passphrase
+6. Trasferire degli ARK all’indirizzo del proprio wallet da un exchange
+7. Per iniziare il processo di voto cliccare VOTES
+8. Aggiungere il proprio delegato selezionando uno username e cliccando ADD DELEGATE
+9. Registrare il proprio voto cliccando su VOTE
+10. Firmare la transazione di voto con la propria passprhase inserendo quella generata al punto 3
+11. Confermare l’accettazione della commissione di voto
+12. Verificare la transazione di voto
+
+**Si è individualmente responsabili della verifica della proposta del delegato scelto, delle ricompense e di ogni altro dettaglio prima di votare.** Le proposte dei delegati si trovano qui:
+
+- https://forum.ark.io/category/5/delegates
+- https://www.reddit.com/r/arkdelegates
+
+##5. Exchange
+* Bittrex: https://bittrex.com
+* Binance: https://www.binance.com/
+* More: https://coinmarketcap.com/currencies/ark/#markets
+
+##6. Wallet ed Explorer
+Ark offre un wallet semplice da utilizzare ed estremamente funzionale:
+
+* Desktop: https://github.com/ArkEcosystem/ark-desktop/releases
+* Android: https://play.google.com/store/apps/details?id=io.ark.wallet.mobile
+* iOS: https://blog.ark.io/mobile-ark-wallet-a-wallet-for-everyone-aeb712d88e24
+
+Explorer: https://explorer.ark.io/
+
+##7. ARK, Funzionalità & Visione
+###7.1 SmartBridge
+Ark comunica tra diverse blockchain utilizzando una specifica sezione, contenente dati in formato testuale, chiamata SmartBridge ed uno speciale nodo, chiamato Encoded Listener, che ricerca in questi dati potenziali attività che può effettuare. ARK Core prevede una funzionalità di bridging per collegare tra loro differenti blockchain. Qualunque blockchain può inviare e ricevere notifiche, che fungono da trigger per le funzionalità, ed informazioni attraverso la rete Ark tramite uno SmartBridge appositamente sviluppato ed un nodo Encode Listener. 
+Quest'ultimo è il centro focale per recepire le transazioni SmartBridge. Chiunque voglia contribuire alla rete può attivare e mantenere un Encode Listener; come ricompensa, verranno raccolte le commissioni per il passaggio di dati o valute attraverso SmartBridge.
+###7.2 Push Button Deployment
+La funzionalità Push Button Deployment rende possibile la personalizzazione e la creazione di nuove blockchain e valute tramite pochi click. Rendendo Ark clonabile tramite push button deployment e collegato alla Chain principale di Ark via SmartBridge; ogni startup che volesse effettuare un fork di Ark potrà farlo con facilità ed essere automaticamente compatibile con SmartBridge.
+
+###7.3 ARK Virtual Machine (ArkVM)
+ArkVM consente Smart Contract robusti, in un ambiente scalabile e con basse commissioni. L’integrazione di Ark Virtual Machine permetterà agli utenti di rilasciare Smart Contract basati su Ark, simili a quelli di Ethereum.
+
+###7.4 ARK Core versione 2
+Il codice sorgente del nodo core di Ark è in fase di aggiornamento, e verrà riscritto dalle fondamenta. Questo significa, per Ark, una più alta capacità di trasmissione in termini di transazioni al secondo, maggiore scalabilità, commissioni dinamiche, utilizzo di core multipli, tempi di transazione più veloci, migliore stabilità, transazioni di pagamento multiple, la preparazione per il rilascio di Smart Contract e molte altre nuove funzionalità.
+
+###7.5 Interfacce Programmabili (API)
+Ark è sviluppato su tecnologia node.js/JavaScript, ma può essere utilizzato tramite moltissimi linguaggi di programmazione. Ci sono numerosi linguaggi di programmazione che permettono agli sviluppatori di accedere ed utilizzare la blockchain Ark. Ark offre interfacce programmabili (API) nei seguenti linguaggi: Python, Elixir, RPC, Lua, Java, .Net, R, C, Go,Advanced PowerShell, Rust, Kotlin, PHP/Laravel, TypeScript, C++, Nucleid, Ruby, Swift iOS.

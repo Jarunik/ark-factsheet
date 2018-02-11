@@ -6,7 +6,7 @@ Thanks for any contributions.
 
 # History
 
-Initial versions of the documents in Egnlish, German, French and Arabic were collaboratively created by CryptoForEveryone and his arabic friend based on source information from Jarunik and official information on ark.io.
+Initial versions of the documents in English, German, French and Arabic were collaboratively created by CryptoForEveryone and his arabic friend based on source information from Jarunik and official information on ark.io.
 
 Jarunik received the intial documents as contribution to the delgate voter bounty program in order to make them available for the Ark community.
 
