@@ -1,8 +1,27 @@
 # ark-factsheet
 
-Published on: https://doc.arkcoin.net
+Published on:
+
+- https://doc.arkcoin.net
+
+- https://jarunik.github.io/ark-factsheet/
+
 
 Thanks for any contributions.
+
+# Repo organisation
+
+## /
+
+The root folder is for the git files, readme and any new files not fitting in yet.
+
+## /docs/
+
+All files needed to publish the finished PDF's.
+
+## /src/
+
+All source files needed to create the PDF's or other publications.
 
 # History
 
