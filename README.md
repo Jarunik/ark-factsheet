@@ -19,6 +19,10 @@ The root folder is for the git files, readme and any new files not fitting in ye
 
 All files needed to publish the finished PDF's.
 
+## /other/
+
+Additional formats and files.
+
 ## /src/
 
 All source files needed to create the PDF's or other publications.
