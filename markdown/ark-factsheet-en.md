@@ -33,16 +33,16 @@ DPoS uses a real time voting system to decide who can create new blocks. DPoS le
 Everyone can run a node of the ARK network. You become a delegate by registering your account with a transaction and entering your passphrase into your relay node to activate forging. The 51 delegates with the highest number of votes can forge new ARK blocks. The delegates get the transaction fees and the block reward for including transactions in new blocks. The delegates can use these funds as they wish but a lot of delegates share most of it with their voters. You can check the current delegates statistics and the ranking on: https://arkcoin.net/delegates
 
 ## Exchanges
-Bittrex: https://bittrex.com
-Binance: https://www.binance.com/
-More: https://coinmarketcap.com/currencies/ark/#markets
+- Bittrex: https://bittrex.com
+- Binance: https://www.binance.com/
+- More: https://coinmarketcap.com/currencies/ark/#markets
 
 ## Wallets and Explorer
 ARK offers easy to use wallets with powerful features:
-Desktop: https://github.com/ArkEcosystem/ark-desktop/releases
-Android: https://play.google.com/store/apps/details?id=io.ark.wallet.mobile
-iOS: https://blog.ark.io/mobile-ark-wallet-a-wallet-for-everyone-aeb712d88e24
-Explorer: https://explorer.ark.io/
+- Desktop: https://github.com/ArkEcosystem/ark-desktop/releases
+- Android: https://play.google.com/store/apps/details?id=io.ark.wallet.mobile
+- iOS: https://blog.ark.io/mobile-ark-wallet-a-wallet-for-everyone-aeb712d88e24
+- Explorer: https://explorer.ark.io/
  
 ## How to Vote
 1.	Install the latest Ark Desktop Client or Mobile Wallet
@@ -94,7 +94,7 @@ I take care of several tasks daily:
 I offer the following main services and consider developing more:
 - Voter Bounty Program
 - Escrow Service
-- 
+
 I also provide a lot of information:
 - https://www.reddit.com/r/DelegateJarunik/
 - https://medium.com/@jarunik
