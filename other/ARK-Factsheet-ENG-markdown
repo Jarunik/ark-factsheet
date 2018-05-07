@@ -39,7 +39,7 @@ Subreddit | r/ ArkEcosystem
 
 * Fast
 
-The 8-second block times makes ARK’s network one of the fastest in the industry. Delegated Proof of
+The 8-second block times makes ARK's network one of the fastest in the industry. Delegated Proof of
 Stake allows adaptation of blocksize and other parameters to stay fast under increased usage.
 
 * Decentralized
@@ -136,7 +136,7 @@ anyone that wants to act as a medium to help the network. For providing this ser
 collecting transaction fees for passing data or exchanging currencies via SmartBridge.
 ###8.2 Push Button Deployment
 Push Button Development makes it possible to customize and create a new blockchain and token
-within a few mouse clicks. Making ARK clone-able with push button deployment and linked to ARK’s
+within a few mouse clicks. Making ARK clone-able with push button deployment and linked to ARK's
 Main Chain via SmartBridge. Any startup that wants to fork ARK can do so with ease and be
 SmartBridge compatible right out of the box.
 ###8.3 ARK Virtual Machine (ArkVM)
